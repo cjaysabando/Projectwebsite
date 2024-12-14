@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #CDC1FF
+    ;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cpath%20d%3D%22M%200%200%20L%20512%20512%20M%20512%200%20L%200%20512%22%20stroke%3D%22rgba(255,255,255,0.322)%22%20stroke-width%3D%225.01px%22%20vector-effect%3D%22non-scaling-stroke%22%20stroke-linecap%3D%22square%22%20fill-rule%3D%22nonzero%22%20%2F%3E%3C%2Fsvg%3E');
+    background-size: 52px;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #A294F9;
+	padding: 10px 20px;
+}
+.nav-bar > .nav-links > li{
+	margin: 0 15px;
+}
+ul{
+    text-decoration: none;
+}
+.navbar .logo{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.navbar .nav-links{
+	list-style: none;
+	display: flex;   
+}
+
+.nav-bar a{
+    text-decoration: none;
+	font-size: 1rem;
+	transition: color 0.3s;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+}
+.navbar .nav-links a:hover{
+	color:#00aaff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #F5EFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.bball{
+    width: 180px;
+    height: 200px;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #A294F9;
+    color: #fff;
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 90%;
+    align-items: center;
+    position: absolute;
+    display: block;
+    text-align: center;
+    clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+    li img {
+        width: 30px;
+        height: 30px;
+    }
+}
